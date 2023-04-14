@@ -17,7 +17,7 @@ if u have windows have a folder with
 
 2 ffmpeg.exe find it here
 
-3 and this python_file.py 
+3 and this musicdownloader.py or videodownloader.py 
 
 if you have Linux just make sure you have installed ffmpeg 
 
@@ -25,8 +25,13 @@ on the same folder have
 
 1 the links.txt
 
-2 and this python_file.py 
+2 and this musicdownloader.py or videodownloader.py 
+
+
+
+the code is
 ### ### ### ### ### ### ### ### ### ### ### ### ### 
+---videodownloader.py 
 import yt_dlp #pip install yt-dlp
 
 file_path = 'links.txt'
@@ -35,7 +40,7 @@ with open(file_path, 'r') as f:
     video_links = [line.strip() for line in f]
 
 ydl_opts = {
-    'format': 'bestvideo+bestaudio', #you can change here qualities 
+    'format': 'bestvideo+bestaudio', #you can change here qualities like  'bestvideo[height<=360]+bestaudio/best[height<=360]' 
     'outtmpl': '%(title)s.%(ext)s',
     'fragment_retries': 100000,
     'max_sleep_interval': 1,
@@ -46,7 +51,7 @@ ydl_opts = {
 with yt_dlp.YoutubeDL(ydl_opts) as ydl:
     ydl.download(video_links)
 ###########################################
-here is for the music 
+---musicdownloader.py
 
 import yt_dlp
 
