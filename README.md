@@ -22,7 +22,9 @@ if u have windows have a folder with
 if you have Linux just make sure you have installed ffmpeg 
 
 on the same folder have
+
 1 the links.txt
+
 2 and this python_file.py 
 ### ### ### ### ### ### ### ### ### ### ### ### ### 
 import yt_dlp #pip install yt-dlp
