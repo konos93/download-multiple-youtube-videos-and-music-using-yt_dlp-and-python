@@ -14,7 +14,9 @@ If you have  an error like
 if u have windows have a folder with 
 
 1 the links.txt using firefox module
+
 2 ffmpeg.exe find it here
+
 3 and this python_file.py 
 
 if you have Linux just make sure you have installed ffmpeg 
