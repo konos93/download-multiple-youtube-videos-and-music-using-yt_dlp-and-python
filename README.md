@@ -19,7 +19,7 @@ if u have windows have a folder with
 
 3 and this musicdownloader.py or videodownloader.py 
 
-if you have Linux just make sure you have installed ffmpeg 
+if you have Linux just make sure you have installed ffmpeg https://github.com/kkroening/ffmpeg-python
 
 on the same folder have
 
