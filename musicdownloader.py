@@ -7,7 +7,7 @@ with open(file_path, 'r') as f:
 
 ydl_opts = {
     'format': 'bestaudio/best',
-    'outtmpl': '%(autonumber)s_%(title)s.%(id)s.%(ext)s',
+    'outtmpl': '%(autonumber)s_%(title)s.%(ext)s',
     'fragment_retries': 100000,
     'max_sleep_interval': 1,
     'retry_max_sleep': 2,
