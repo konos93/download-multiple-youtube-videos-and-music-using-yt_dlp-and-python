@@ -15,7 +15,7 @@ if u have windows have a folder with
 
 1 the links.txt using firefox module
 
-2 ffmpeg.exe find it here
+2 ffmpeg.exe find it here https://ffmpeg.org/download.html
 
 3 and this musicdownloader.py or videodownloader.py 
 
