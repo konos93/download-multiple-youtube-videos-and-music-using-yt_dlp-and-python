@@ -27,3 +27,6 @@ on the same folder have
 
 2 and this musicdownloader.py or videodownloader.py 
 
+ok i found out that u can make exe files from py with auto-py-to-exe u can run the exe files if u install ffmpeg https://www.youtube.com/watch?v=r1AtmY-RMyQ
+or download ffmpeg.exe and have the exe files on the same folder
+
