@@ -1,3 +1,5 @@
+check this https://archive.org/details/20231011_20231011_2244 
+
 you can download multiple youtube videos or music or both of them using yt_dlp and python 3.10
 open in firefox tabs with the youtube links you wanna to download
 this is a great tool to make txt file to use  https://addons.mozilla.org/en-US/firefox/addon/export-tabs-urls-and-titles/
