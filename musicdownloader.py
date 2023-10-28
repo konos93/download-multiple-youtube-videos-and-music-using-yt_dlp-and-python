@@ -15,7 +15,7 @@ ydl_opts = {
         'preferredcodec': 'mp3',
         'preferredquality': '64',
     }],
-    'socket_timeout': 5,
+    'socket_timeout': 50,
     'extractaudio': True,
 }
 
@@ -31,9 +31,11 @@ directory = os.getcwd()
 
 file_list = os.listdir(directory)
 
+file_path = 'links.txt'
+
 if not any(file.endswith('.mp3') for file in file_list):
 
-    file_path = 'links.txt'
+
 
     with open(file_path, 'r') as f:
         video_links = [line.strip() for line in f]
@@ -44,7 +46,7 @@ if not any(file.endswith('.mp3') for file in file_list):
             ydl.download([link])
 
     # Set the maximum number of concurrent downloads (you can adjust this) .how many url u download in the same time?
-    max_concurrent_downloads = 15
+    max_concurrent_downloads = 50
 
     with concurrent.futures.ThreadPoolExecutor(max_concurrent_downloads) as executor:
         executor.map(download_video, video_links)
@@ -70,7 +72,7 @@ else:
             if os.path.isfile(filename):
                 f.write(filename + '\n')
 
-    file_path = 'helplinks.txt' #links with number on the left
+
     file_list_path = 'file_list.txt'  # Path to the file containing existing titles
 
     # Read the existing titles from file_list.txt
