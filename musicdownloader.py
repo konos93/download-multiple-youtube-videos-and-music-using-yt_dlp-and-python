@@ -1,5 +1,5 @@
 '''dont have any mp3 file in your folder 
-run the app a second time if wasnt something downloaded well with the new mp3 inside the folder''')
+run the app a second time if wasnt something downloaded well with the new mp3 inside the folder'''
 import yt_dlp
 import os
 import glob
