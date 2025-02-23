@@ -11,6 +11,7 @@ ydl_opts = {
     'fragment_retries': 100000,
     'max_sleep_interval': 1,
     'retry_max_sleep': 3,
+ 'cookiesfrombrowser': ('firefox',) 
 }
 
 
