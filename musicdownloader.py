@@ -27,7 +27,8 @@ ydl_opts = {
     'quiet': False,  # Set to False to enable verbose output
     'verbose': True,  # Set to True to enable verbose output
     'keepvideo': False,  # This option keep the downloaded files from being deleted ,type false if u wanna to delete
-    'concurrent-fragments': 1  # Set the number of concurrent fragments you want to download,i did not see much different
+    'concurrent-fragments': 1,  # Set the number of concurrent fragments you want to download,i did not see much different
+    'cookiesfrombrowser': ('firefox',) 
 }
 '''
 
@@ -44,7 +45,8 @@ ydl_opts = {
     'quiet': False,  # Set to False to enable verbose output
     'verbose': True,  # Set to True to enable verbose output
     'keepvideo': False,  # This option keep the downloaded files from being deleted ,type false if u wanna to delete
-    'concurrent-fragments': 1  # Set the number of concurrent fragments you want to download,i did not see much different
+    'concurrent-fragments': 1,  # Set the number of concurrent fragments you want to download,i did not see much different
+    'cookiesfrombrowser': ('firefox',) 
 }
 '''
 
