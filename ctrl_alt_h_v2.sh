@@ -14,9 +14,10 @@
 # tail -f /home/kmk/downloadfromyoutube/ctrl_alt_h.log to check if working
 
 
-exec > /home/kmk/downloadfromyoutube/ctrl_alt_h.log 2>&1
-export DISPLAY=:1  # Use correct DISPLAY number
-cd /home/kmk/downloadfromyoutube #path to save
+
+exec > "$(dirname "$0")/ctrl_alt_h.log" 2>&1
+export DISPLAY=:1
+cd "$(dirname "$0")"  # Dynamic path adjustment
 
 echo "DISPLAY=$DISPLAY"
 echo "USER=$USER"
